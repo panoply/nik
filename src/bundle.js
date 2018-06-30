@@ -9,7 +9,7 @@ import Index from './views/index';
 
 const root = document.getElementById('app');
 
-//m.route.prefix('');
+m.route.prefix('');
 m.route(root, '/', {
   '/': {
     render() {
