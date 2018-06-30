@@ -11,7 +11,7 @@ export default {
                         src: "https://avatars2.githubusercontent.com/u/7041324?u=888d2c7af2f9938b0ad2d22118dec324fbbe3e8b&v=4"
                      })
                   ]),
-                  m("svg.hero__logo", m('use[xlink:href="https://panoply.github.io/icons.svg#logo"]')),
+                  m("svg.hero__logo", m('use[xlink:href="icons.svg#logo"]')),
                   m('.d-block', [
                      m.trust("I'm a full stack web developer currently based out of the Netherlands.")
                   ]),
