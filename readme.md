@@ -11,9 +11,17 @@ All dependencies are included with the `package.json` file. There are 3 CLI comm
 | `yarn watch` |  Runs development from `dist`   |
 | `yarn build` |  Builds into `dist` for production |
 | `yarn icons` |  Creates SVG Sprite from `/src/icons` |
+| `yarn upload` | Pushes `dist` directory the gh-pages branch |
+
 
 ### Github Pages Branch
-Push `dist` directory to the `gh-pages` branch when updates are made.
+Push `dist` directory to the `gh-pages` branch when updates are made using the `yarn upload` command.
+
+```
+git subtree push --prefix dist origin gh-pages
+```
+
+> Resolve Troubleshoot git conflicts by deleting the branch and pushing a new one.
 
 ```
 git subtree push --prefix dist origin gh-pages

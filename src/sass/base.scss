@@ -5,7 +5,7 @@
 body {
    margin: 0;
    padding: 0;
-   font-family: "sans-serif";
+   font-family: 'Oswald', sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    -webkit-tap-highlight-color: rgba(0, 0, 0, .25);
@@ -16,8 +16,16 @@ body {
    font-size: 20px;
    letter-spacing: .0425rem;
    line-height: 24px;
+   .img-placeholder {
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: 0 auto;
+      background-color: #f8f8f8;
+   }
    img {
-		box-shadow:  1px 0 15px 5px rgba(0,0,0,0.1);
       border-radius: 50%;
       width: 180px;
       margin: 0 auto;
@@ -30,6 +38,12 @@ body {
          width: 300px;
       }
    }
+
+   .sub-header {
+      width: 100%;
+      max-width: 600px;
+   }
+
    .icon-github {
       width: 35px;
       height: 35px;
