@@ -1,10 +1,10 @@
 ### Contact Card
 
-Personal contact card website built with Mithril.
+Personal contact card website built with the Mithril framework using Rollup for bundling.
 
 
 ### Installation
-All dependencies are included with the `package.json` file. There are 3 CLI commands.
+All dependencies are included with the `package.json` file. There are 4 CLI commands.
 
 |Command| Operation |
 |--|--|
