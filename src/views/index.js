@@ -52,7 +52,7 @@ export default {
                         ])
                      ]),
                      m('.col-auto', [
-                        m('a[href="https://github.com/panoply"]', [
+                        m('a[href="https://www.linkedin.com/in/nikolassavvidis/"]', [
                            m("svg.icon-github", [
                               m('use[xlink:href="icons.svg#linkedin"]')
                            ])
