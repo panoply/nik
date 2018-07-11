@@ -15,14 +15,14 @@ All dependencies are included with the `package.json` file. There are 3 CLI comm
 
 
 ### Github Pages Branch
-Push `dist` directory to the `gh-pages` branch when updates are made using the `yarn upload` command.
+Push `dist` directory to the `gh-pages` branch when updates are made using the `yarn upload` command or manually using:
 
 ```
 git subtree push --prefix dist origin gh-pages
 ```
 
-> Resolve Troubleshoot git conflicts by deleting the branch and pushing a new one.
+> Troubleshoot git conflicts in the gh-pages branch by deleting the branch and pushing a new one:
 
 ```
-git subtree push --prefix dist origin gh-pages
+git push origin gh-pages --delete
 ```
