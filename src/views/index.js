@@ -16,7 +16,7 @@ export default {
                   m("svg.hero__logo", m('use[xlink:href="icons.svg#logo"]')),
                   m('.sub-header', [
                      m('.d-inline.d-sm-block.pr-1.p-sm-0', [
-                        m.trust("I'm a full stack web developer currently based out of the Netherlands.")
+                        m.trust("I'm a mediocre php developer currently based out of the Netherlands.")
                      ]),
                      m('.d-inline.d-sm-block', [
                         m.trust("I establish an e-commerce nexus for fashion brands, labels and agencies.")
