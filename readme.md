@@ -8,14 +8,14 @@ All dependencies are included with the `package.json` file. There are 4 CLI comm
 
 |Command| Operation |
 |--|--|
-| `yarn watch` |  Runs development from `dist`   |
-| `yarn build` |  Builds into `dist` for production |
-| `yarn icons` |  Creates SVG Sprite from `/src/icons` |
-| `yarn upload` | Pushes `dist` directory the gh-pages branch |
+| `npm run watch` |  Runs development from `dist`   |
+| `npm run build` |  Builds into `dist` for production |
+| `npm run icons` |  Creates SVG Sprite from `/src/icons` |
+| `npm run upload` | Pushes `dist` directory the gh-pages branch |
 
 
 ### Github Pages Branch
-Push `dist` directory to the `gh-pages` branch when updates are made using the `yarn upload` command or manually using:
+Push `dist` directory to the `gh-pages` branch when updates are made using the `npm run upload` command or manually using:
 
 ```
 git subtree push --prefix dist origin gh-pages
