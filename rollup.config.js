@@ -15,7 +15,7 @@ export default {
   input: 'src/bundle.js',
   output: {
     file: 'dist/bundle.js',
-    format: 'iife', // immediately-invoked function expression — suitable for <script> tags
+    format: 'iife',
     sourcemap: true
   },
   plugins: [
