@@ -1,5 +1,5 @@
 {
-  "name": "nikolas-savvidis",
+  "name": "nik",
   "devDependencies": {
     "autoprefixer": "^8.1.0",
     "gulp": "^4.0.0",
@@ -18,11 +18,11 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "mithril": "^1.1.6"
+    "mithril": "^2.0.4"
   },
   "scripts": {
-    "build": "rollup -c",
-    "watch": "rollup -c -w",
+    "prod": "rollup -c",
+    "dev": "rollup -c -w",
     "icons": "gulp icons",
     "upload": "git subtree push --prefix dist origin gh-pages"
   }
