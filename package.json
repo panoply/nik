@@ -4,7 +4,7 @@
     "autoprefixer": "^8.1.0",
     "gulp": "^4.0.0",
     "gulp-svg-sprite": "^1.4.0",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "rollup": "^0.55.5",
     "rollup-plugin-buble": "^0.19.2",
     "rollup-plugin-commonjs": "^8.0.2",
